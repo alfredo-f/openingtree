@@ -15,6 +15,13 @@ Can't use PyCharm magic because yarn commands need
 --network-timeout 100000
 ```
 
+For Powershell, you need to set SSL as per
+https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+
+```
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+```
+
 ```
 yarn
 yarn start
