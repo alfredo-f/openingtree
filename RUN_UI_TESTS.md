@@ -25,6 +25,13 @@ yarn
 ## Deploy the application
 
 Do this prior to setting the "HOST" environment variable below.  Otherwise `yarn start` will clash.
+
+For Powershell
+```
+# https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+```
+
 ```
 yarn start
 ```

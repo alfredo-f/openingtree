@@ -8,6 +8,13 @@ This does not correlate one to one with the code modules but the interactions at
 ![GitHub Logo](/docs/images/architecture.png)
 
 ## Run locally
+
+Can't use PyCharm magic because yarn commands need
+
+```
+--network-timeout 100000
+```
+
 ```
 yarn
 yarn start
