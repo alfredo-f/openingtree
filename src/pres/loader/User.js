@@ -383,6 +383,70 @@ export default class User extends React.Component {
     }
 
     getPgnFileSelection() {
+        // This is where you go insane
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
         return <div><Dropzone filesChange={this.filesChange.bind(this)} filesLimit={10}
         dropzoneText="Drag and drop up to 10 pgn files here or click here to select files"
                 />
